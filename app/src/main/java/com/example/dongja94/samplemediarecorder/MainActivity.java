@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         values.put(MediaStore.Video.Media.DISPLAY_NAME, "my test video");
         values.put(MediaStore.Video.Media.DESCRIPTION, "sample recording test");
         values.put(MediaStore.Video.Media.TITLE, "....");
-        values.put(MediaStore.Video.Media.CONTENT_TYPE,"video/mpeg");
+        values.put(MediaStore.Video.Media.MIME_TYPE,"video/mpeg");
         values.put(MediaStore.Video.Media.DATA,mSavedFile.getAbsolutePath());
         values.put(MediaStore.Video.Media.DATE_ADDED, System.currentTimeMillis() / 1000);
 
